@@ -11,11 +11,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>mall-coupon/mall-coupon</module>
-        <module>mall-member/mall-member</module>
-        <module>mall-order/mall-order</module>
-        <module>mall-product/mall-product</module>
-        <module>mall-ware/mall-ware</module>
+        <module>mall-coupon</module>
+        <module>mall-member</module>
+        <module>mall-order</module>
+        <module>mall-product</module>
+        <module>mall-ware</module>
+        <module>renren-fast</module>
     </modules>
 
 </project>
