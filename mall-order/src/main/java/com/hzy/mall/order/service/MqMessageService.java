@@ -1,7 +1,7 @@
 package com.hzy.mall.order.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hzy.common.utils.PageUtils;
+import com.hzy.mall.common.utils.PageUtils;
 import com.hzy.mall.order.entity.MqMessageEntity;
 
 import java.util.Map;

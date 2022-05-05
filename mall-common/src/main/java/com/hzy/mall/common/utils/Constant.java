@@ -6,11 +6,12 @@
  * 版权所有，侵权必究！
  */
 
-package com.hzy.common.utils;
+package com.hzy.mall.common.utils;
 
-import com.hzy.common.validator.group.AliyunGroup;
-import com.hzy.common.validator.group.QcloudGroup;
-import com.hzy.common.validator.group.QiniuGroup;
+
+import com.hzy.mall.common.validator.group.AliyunGroup;
+import com.hzy.mall.common.validator.group.QcloudGroup;
+import com.hzy.mall.common.validator.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;

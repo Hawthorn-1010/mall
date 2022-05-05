@@ -1,4 +1,4 @@
-package com.hzy.common.xss;
+package com.hzy.mall.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

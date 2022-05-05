@@ -5,8 +5,8 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.hzy.common.utils.PageUtils;
-import com.hzy.common.utils.Query;
+import com.hzy.mall.common.utils.PageUtils;
+import com.hzy.mall.common.utils.Query;
 
 import com.hzy.mall.coupon.dao.SkuFullReductionDao;
 import com.hzy.mall.coupon.entity.SkuFullReductionEntity;

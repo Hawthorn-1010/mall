@@ -6,12 +6,16 @@
  * 版权所有，侵权必究！
  */
 
-package com.hzy.common.validator.group;
+package com.hzy.mall.common.utils;
 
 /**
- * 七牛
+ * Redis所有Keys
  *
  * @author Mark sunlightcs@gmail.com
  */
-public interface QiniuGroup {
+public class RedisKeys {
+
+    public static String getSysConfigKey(String key){
+        return "sys:config:" + key;
+    }
 }

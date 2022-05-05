@@ -1,7 +1,7 @@
 package com.hzy.mall.member.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.hzy.common.utils.PageUtils;
+import com.hzy.mall.common.utils.PageUtils;
 import com.hzy.mall.member.entity.MemberCollectSubjectEntity;
 
 import java.util.Map;

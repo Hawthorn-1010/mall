@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.hzy.common.exception;
+package com.hzy.mall.common.exception;
 
 /**
  * 自定义异常

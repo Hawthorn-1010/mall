@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hzy.mall.member.entity.GrowthChangeHistoryEntity;
 import com.hzy.mall.member.service.GrowthChangeHistoryService;
-import com.hzy.common.utils.PageUtils;
-import com.hzy.common.utils.R;
+import com.hzy.mall.common.utils.PageUtils;
+import com.hzy.mall.common.utils.R;
 
 
 

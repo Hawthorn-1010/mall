@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hzy.mall.order.entity.OrderSettingEntity;
 import com.hzy.mall.order.service.OrderSettingService;
-import com.hzy.common.utils.PageUtils;
-import com.hzy.common.utils.R;
+import com.hzy.mall.common.utils.PageUtils;
+import com.hzy.mall.common.utils.R;
 
 
 

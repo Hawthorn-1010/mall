@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com.hzy.common.xss;
+package com.hzy.mall.common.xss;
 
-import com.hzy.common.exception.RRException;
+import com.hzy.mall.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**

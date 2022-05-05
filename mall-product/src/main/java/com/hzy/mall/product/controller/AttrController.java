@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hzy.mall.product.entity.AttrEntity;
 import com.hzy.mall.product.service.AttrService;
-import com.hzy.common.utils.PageUtils;
-import com.hzy.common.utils.R;
+import com.hzy.mall.common.utils.PageUtils;
+import com.hzy.mall.common.utils.R;
 
 
 

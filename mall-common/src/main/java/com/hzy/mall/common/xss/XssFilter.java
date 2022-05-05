@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com.hzy.common.xss;
+package com.hzy.mall.common.xss;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
