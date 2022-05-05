@@ -2,7 +2,7 @@ package com.hzy.mall.product;
 
 import com.hzy.mall.product.entity.BrandEntity;
 import com.hzy.mall.product.service.BrandService;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -5,6 +5,7 @@ import java.util.Map;
 
 // import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,6 +26,7 @@ import com.hzy.mall.common.utils.R;
  * @email hzy10101010@163.com
  * @date 2022-05-04 10:30:24
  */
+@RefreshScope
 @RestController
 @RequestMapping("member/member")
 public class MemberController {
