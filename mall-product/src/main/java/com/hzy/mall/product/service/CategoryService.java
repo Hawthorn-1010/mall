@@ -15,7 +15,10 @@ import java.util.Map;
  * @date 2022-05-03 22:46:07
  */
 public interface CategoryService extends IService<CategoryEntity> {
-    public List<CategoryEntity> listWithTree();
+    List<CategoryEntity> listWithTree();
+
+    void removeMenuById(List<Long> asList);
+
     PageUtils queryPage(Map<String, Object> params);
 }
 

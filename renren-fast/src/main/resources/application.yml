@@ -41,6 +41,14 @@ spring:
       matching-strategy: ANT_PATH_MATCHER
 #  resources:
 #    add-mappings: false
+  application:
+    name: renren-fast
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
 
 
 #mybatis
@@ -76,3 +84,5 @@ renren:
     # token有效时长，7天，单位秒
     expire: 604800
     header: token
+
+

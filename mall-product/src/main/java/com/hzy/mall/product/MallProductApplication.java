@@ -3,6 +3,7 @@ package com.hzy.mall.product;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 1. 导入依赖
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 4. @MapperScan
  * 5. 告诉MP sql映射文件的位置
  */
+@EnableDiscoveryClient
 @MapperScan("com.hzy.mall.product.dao")
 @SpringBootApplication
 public class MallProductApplication {
