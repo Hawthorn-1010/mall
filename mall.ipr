@@ -108,6 +108,7 @@ under the License.
       <module filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml"/>
       <module filepath="$PROJECT_DIR$/mall-common/mall-common.iml"/>
       <module filepath="$PROJECT_DIR$/mall-gateway/mall-gateway.iml"/>
+      <module filepath="$PROJECT_DIR$/mall-third-party/mall-third-party.iml"/>
     </modules> 
   </component>  
   <UsedPathMacros> 
