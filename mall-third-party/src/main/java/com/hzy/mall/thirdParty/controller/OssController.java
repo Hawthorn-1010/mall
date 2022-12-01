@@ -37,7 +37,6 @@ public class OssController {
     @Value("${spring.cloud.alicloud.access-key}")
     private String accessId;
 
-    @ResponseBody
     @RequestMapping("/oss/policy")
     public Map<String, String> policy() {
         // 填写Bucket名称，例如examplebucket。
@@ -49,7 +48,6 @@ public class OssController {
         // 设置上传到OSS文件的前缀，可置空此项。置空后，文件将上传至Bucket的根目录下。
         String format = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         String dir = format + "/";
-
         Map<String, String> respMap = null;
         try {
             long expireTime = 30;

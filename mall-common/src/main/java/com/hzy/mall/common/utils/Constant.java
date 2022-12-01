@@ -8,7 +8,6 @@
 
 package com.hzy.mall.common.utils;
 
-
 import com.hzy.mall.common.validator.group.AliyunGroup;
 import com.hzy.mall.common.validator.group.QcloudGroup;
 import com.hzy.mall.common.validator.group.QiniuGroup;

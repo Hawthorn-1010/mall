@@ -21,7 +21,7 @@ public class MallProductApplicationTests  {
     private BrandService brandService;
 
     @Autowired
-    private OSSClient ossClient;
+    private OSS ossClient;
 
     @Test
     public void testUpload() throws FileNotFoundException {

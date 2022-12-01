@@ -1,10 +1,14 @@
 package com.hzy.mall.product.controller;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Map;
 
 // import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.hzy.mall.common.validator.group.AddGroup;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +20,7 @@ import com.hzy.mall.product.service.BrandService;
 import com.hzy.mall.common.utils.PageUtils;
 import com.hzy.mall.common.utils.R;
 
+import javax.validation.Valid;
 
 
 /**
@@ -59,9 +64,19 @@ public class BrandController {
      */
     @RequestMapping("/save")
     // @RequiresPermissions("product:brand:save")
-    public R save(@RequestBody BrandEntity brand){
-		brandService.save(brand);
-
+    public R save(@Validated({AddGroup.class}) @RequestBody BrandEntity brand/*, BindingResult result*/){
+//		if (result.hasErrors()) {
+//            Map<String, String> map = new HashMap<>();
+//            result.getFieldErrors().forEach((item) -> {
+//                // 错误信息
+//                String msg = item.getDefaultMessage();
+//                // 不合法的字段
+//                String field = item.getField();
+//                map.put(field, msg);
+//            });
+//            return R.error(400, "校验的结果不合法").put("data", map);
+//        }
+        brandService.save(brand);
         return R.ok();
     }
 
